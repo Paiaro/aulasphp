@@ -9,7 +9,8 @@
     <h1>Aulas PHP 14/05</h1>
     <hr>
     <?php
-   echo "JHAFGAIGFAHFVAGKHGFALJFHOFAHFOAFHAOFH"; 
+   echo "JHAFGAIGFAHFVAGKHGFALJFHOFAHFOAFHAOFH";
+   echo "<p>HEEEEEEEYYYYYYYYY JUUUUUUDE</p>"
     ?>
 </body>
 </html>
