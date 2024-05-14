@@ -10,7 +10,7 @@
     <hr>
     <?php
    echo "JHAFGAIGFAHFVAGKHGFALJFHOFAHFOAFHAOFH";
-   echo "<p>HEEEEEEEYYYYYYYYY JUUUUUUDE</p>"
+   echo "<p>HEEEEEEEYYYYYYYYY JUUUUUUDE</p>";
     ?>
 </body>
 </html>
