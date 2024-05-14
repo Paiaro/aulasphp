@@ -11,6 +11,7 @@
     <?php
    echo "JHAFGAIGFAHFVAGKHGFALJFHOFAHFOAFHAOFH";
    echo "<p>HEEEEEEEYYYYYYYYY JUUUUUUDE</p>";
+   echo "<p style=\"text-align:center\">Senac Penha </p>"
     ?>
 </body>
 </html>
