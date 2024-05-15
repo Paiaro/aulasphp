@@ -30,7 +30,8 @@ echo '<p>Estamos no curso $curso em $ano.</p>';
 define("AUTOR","Gabriel Paiaro"); // Tradicional/antiga
 const EMPRESA = "ABC Tecnologia"; // Nova, moderna
 
-
+// Gabriel trabalha na empresa ABC Tecnologia
+echo "<p>".AUTOR." trabalha na empresa ".EMPRESA."</p>";
 ?>
 
 
