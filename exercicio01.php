@@ -24,7 +24,7 @@
 $nome = 'Chapolin';
 $idade = 25;
 ?>
-<p class="text-center"> <span class = "nome alert alert-primary" role="alert"><?=$nome?></span> possui <span class = "idade alert alert-primary" role="alert"><?=$idade?></span> anos.</p>
+<p class="text-center p-3 mb-2 bg-secondary-subtle text-secondary-emphasis shadow-lg p-3 mb-5 bg-body-tertiary rounded"> <span class = "nome alert alert-primary" role="alert"><?=$nome?></span> possui <span class = "idade alert alert-primary" role="alert"><?=$idade?></span> anos.</p>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
