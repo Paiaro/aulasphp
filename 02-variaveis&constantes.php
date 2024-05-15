@@ -37,9 +37,12 @@ echo "<p>".AUTOR." trabalha na empresa ".EMPRESA."</p>";
 ?>
 
 <h2>Saida de dados simplificada/direta</h2>
+<!-- Estamos no curso programador web em 2024 -->
 
+<p>Estamos no curso <?=$curso?> em <?=$ano?>.</p>
 
-
+<!-- Gabriel trabalha na empresa ABC Tecnilogia -->
+<p> <?=AUTOR?> trabalha na empresa <?=EMPRESA?></p>
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
