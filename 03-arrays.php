@@ -8,6 +8,15 @@
 <body>
     <h1>Arrays</h1>
     <hr>
+    <?php
     
+    
+    
+    
+    
+    
+    
+    
+    ?>
 </body>
 </html>
