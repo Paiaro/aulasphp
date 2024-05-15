@@ -10,13 +10,23 @@
 <div class="container">
 <h1>Variaveis e Constantes</h1>
 <hr>
+<?php
+//variaveis
 
+$curso = "programador web";
+$ano = 2024;
+$area = "back-end";
+
+//Estamos no curso programador web em 2024.
+
+//Saída interpolada (tem que ser com aspas duplas)
+echo "<p>Estamos no curso $curso em $ano.</p>";
+?>
 
 
 
 
 </div>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
