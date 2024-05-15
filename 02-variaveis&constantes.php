@@ -10,6 +10,7 @@
 <div class="container">
 <h1>Variaveis e Constantes</h1>
 <hr>
+<h2>Declaração Saida de dados usando <code>echo</code></h2>
 <?php
 //variaveis
 
