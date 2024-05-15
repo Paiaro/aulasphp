@@ -41,7 +41,7 @@
     ?>
 
     <h3>Acesso e saida de dados</h3>
-    <p>O filme <?=$filme["titulo"]?> foi lançado em <?=$filme["ano"]?></p>
+    <p>O filme <?=$filme["titulo"]?> foi lançado em <?=$filme["ano"]?>.</p>
 </body>
 
 </html>
