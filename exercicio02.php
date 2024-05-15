@@ -22,11 +22,11 @@
 
     ?>
     <ol>
-  <li>Nome de usuário: <?=$dados["nome_usuario"]?></li>
-  <li>Idade: <?=$dados["idade"]?></li>
-  <li>Cidade: <?=$dados["cidade"]?></li>
-  <li>Telefone: <?=$dados["telefones"][0]?></li>
-</ol>
+        <li>Nome de usuário: <?= $dados["nome_usuario"] ?></li>
+        <li>Idade: <?= $dados["idade"] ?></li>
+        <li>Cidade: <?= $dados["cidade"] ?></li>
+        <li>Telefone: <?= $dados["telefones"][0]?></li>
+    </ol>
 
 </body>
 
