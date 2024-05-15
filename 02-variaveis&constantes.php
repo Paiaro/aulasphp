@@ -21,6 +21,9 @@ $area = "back-end";
 
 //Saída interpolada (tem que ser com aspas duplas)
 echo "<p>Estamos no curso $curso em $ano.</p>";
+
+//com aspas simples não funciona a execução dinâmica.
+echo '<p>Estamos no curso $curso em $ano.</p>';
 ?>
 
 
