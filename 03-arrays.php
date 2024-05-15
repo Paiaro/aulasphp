@@ -37,7 +37,7 @@
 
     $filme = ["titulo" => "deadpool 2", "ano" => 2018, "genero" => "acão", "personagens" => ["Wade Wilson", "Fanático"]]; //chave associativa
 
-    $livro = array("titulo"=>"senhor dos anéis", "autor" => "tolkien");
+    $livro = array("titulo"=>"senhor dos anais", "autor" => "tolkien");
     ?>
 
     <h3>Acesso e saida de dados</h3>
