@@ -15,8 +15,8 @@
     $bandas = ["rush","slayer","DIO"];
     $cursos = array("HTML5","PHP", "Design", "JS");
     
-    define("Unidade_SENAC",["belenzinho","bertioga"]);
-    const UNIDADE_SENAC = ["Penha","São Miguel","Itaquera"];
+    define("UNIDADES_SESC",["belenzinho","bertioga"]);
+    const UNIDADES_SENAC = ["Penha","São Miguel","Itaquera"];
     
     
     
