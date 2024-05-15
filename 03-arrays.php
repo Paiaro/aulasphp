@@ -37,12 +37,29 @@
 
     $filme = ["titulo" => "deadpool 2", "ano" => 2018, "genero" => "acão", "personagens" => ["Wade Wilson", "Fanático"]]; //chave associativa
 
-    $livro = array("titulo"=>"senhor dos anais", "autor" => "tolkien");
+    $livro = array("titulo" => "senhor dos anais", "autor" => "tolkien");
     ?>
 
     <h3>Acesso e saida de dados</h3>
-    <p>O filme <?=$filme["titulo"]?> foi lançado em <?=$filme["ano"]?>.</p>
-    <p><?=$livro["titulo"]?> é bom.</p>
+    <p>O filme <?= $filme["titulo"] ?> foi lançado em <?= $filme["ano"] ?>.</p>
+    <p><?= $livro["titulo"] ?> é bom.</p>
+    <hr>
+
+
+    <h2>comandos úteis para análise e depuração de arrays</h2>
+
+    <h3><code>print_r() </code>e<code> var_dump()</code></h3>
+
+    <?php
+
+    print_r($bandas);
+    ?>
+    <br>
+    <?php
+    var_dump($livro);
+    ?>
+    <pre><?= print_r($bandas) ?></pre>
+    <pre><?= var_dump($bandas) ?></pre>
 </body>
 
 </html>
