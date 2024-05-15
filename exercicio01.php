@@ -14,11 +14,10 @@
       font-weight: bold;
       color: #80B3FF;
     }
-
-
     </style>
 </head>
 <body>
+    <div class="container">
     <h1>Exercicio php</h1>
     <hr>
 <?php
@@ -26,7 +25,7 @@ $nome = 'Chapolin';
 $idade = 25;
 ?>
 <p> <span class = "nome alert alert-primary" role="alert"><?=$nome?></span> possui <span class = "idade alert alert-primary" role="alert"><?=$idade?></span> anos.</p>
-
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
