@@ -24,6 +24,13 @@ echo "<p>Estamos no curso $curso em $ano.</p>";
 
 //com aspas simples não funciona a execução dinâmica.
 echo '<p>Estamos no curso $curso em $ano.</p>';
+
+//Constantes
+
+define("AUTOR","Gabriel Paiaro"); // Tradicional/antiga
+const EMPRESA = "ABC Tecnologia"; // Nova, moderna
+
+
 ?>
 
 
