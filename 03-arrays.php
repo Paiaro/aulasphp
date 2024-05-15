@@ -8,9 +8,15 @@
 <body>
     <h1>Arrays</h1>
     <hr>
+    <h2>Arrays numéricos/indexados</h2>
     <?php
     
+    //declarando Arrays
+    $bandas = ["rush","slayer","DIO"];
+    $cursos = array("HTML5","PHP", "Design", "JS");
     
+    define("Unidade_SENAC",["belenzinho","bertioga"]);
+    const UNIDADE_SENAC = ["Penha","São Miguel","Itaquera"];
     
     
     
