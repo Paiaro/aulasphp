@@ -33,7 +33,10 @@ const EMPRESA = "ABC Tecnologia"; // Nova, moderna
 
 // Gabriel trabalha na empresa ABC Tecnologia
 echo "<p>".AUTOR." trabalha na empresa ".EMPRESA."</p>";
+
 ?>
+
+<h2>Saida de dados simplificada/direta</h2>
 
 
 
