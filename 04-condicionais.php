@@ -35,8 +35,9 @@
         <?php
         //controle de estoque
         $produto = "ultrabook";
-        $qtdEstoque = 10; // o que temos no estoque
+        $qtdEstoque = 0; // o que temos no estoque
         $qtdCritica = 2; //minimo necessario
+
 
         ?>
         <h3>Produto: <?= $produto ?></h3>
@@ -46,7 +47,10 @@
         <?php
         // se a quantidade de estoque for abaixo da quantidade critica, o sistema deve avisar e pedir para repor.
         if ($qtdEstoque < $qtdCritica) {
-            echo "<p class=\"alert alert-danger\">necessario repor estoque</p>";
+            echo "<p class=\"alert alert-warning\">necessario repor estoque</p>";
+            if ($qtdEstoque == 0) {
+                echo "<p class = \"alert alert-danger\">Necessario comprar com urgencia</p>";
+            }
         } else {
             echo "<p class= \"alert alert-success\">Estoque normal</p>";
         }
