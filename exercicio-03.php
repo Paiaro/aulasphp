@@ -15,7 +15,7 @@
         $meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
         $i = 0;
         foreach ($meses as $mes) {
-            $cor = $i % 2 === 0 ? 'blue' : 'red';
+            $cor = $i % 2 == 0 ? 'blue' : 'red';
             echo "<li style='color: $cor;'>$mes</li>";
             $i++;
         }
