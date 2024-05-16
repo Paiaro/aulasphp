@@ -25,8 +25,8 @@
         <?php
         $numero = 50;
         if ($numero < 100) {
-?>
-            <p class ="alert alert-success"><?=$numero?> é verdadeira/true!</p>
+        ?>
+            <p class="alert alert-success"><?= $numero ?> é verdadeira/true!</p>
         <?php
         }
         ?>
@@ -46,22 +46,22 @@
 
 
         <?php
-
         if ($qtdEstoque < $qtdCritica) {
-            ?>
+        ?>
+
             <p class="alert alert-warning">necessario repor estoque</p>
+
             <?php
             if ($qtdEstoque == 0) {
-                ?>
-                <p class = "alert alert-danger">Necessario comprar com urgencia</p>
+            ?>
+                <p class="alert alert-danger">Necessario comprar com urgencia</p>
             <?php
             }
         } else {
             ?>
-             <p class= "alert alert-success">Estoque normal</p>
+            <p class="alert alert-success">Estoque normal</p>
         <?php
         }
-
         ?>
         <hr>
         <h2>Encadeada (usa <code>if,else,elseif</code>)</h2>
