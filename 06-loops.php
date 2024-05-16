@@ -18,7 +18,7 @@
 
         <h1>Loops no PHP</h1>
         <hr>
-        <h2>Tradicionais: <code>while e for:</code></h2>
+        <h2>Tradicionais: <code>while e for</code>:</h2>
 
         <?php
         $i = 1;
