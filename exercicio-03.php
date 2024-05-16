@@ -6,6 +6,7 @@
     <title>exercicio - 03 php</title>
 </head>
 <body>
-    
+    <h1>exercicio 03 PHP</h1>
+    <hr>
 </body>
 </html>
