@@ -7,7 +7,7 @@
     <title>Loops PHP</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        p {
+        p,h1,h2,h3 {
             text-align: center;
         }
     </style>
@@ -42,8 +42,11 @@
         <h3><code>for </code>com <code>array</code></h3>
     <?php
     $alunos = ["chaves","chapolin","kiko"];
+    for($i = 0; $i< count($alunos);$i++){
     ?>
-    </div>
+<p class="alert alert-success"></p>
+<?php } ?>    
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
