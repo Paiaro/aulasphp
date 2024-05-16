@@ -44,7 +44,7 @@
     $alunos = ["chaves","chapolin","kiko"];
     for($i = 0; $i< count($alunos);$i++){
     ?>
-<p class="alert alert-success"></p>
+<p class="alert alert-success"><?=$alunos[$i]?></p>
 <?php } ?>    
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
