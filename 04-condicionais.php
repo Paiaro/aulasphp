@@ -80,7 +80,8 @@ $garantia = 3;
 ?>
 <p class="text-info bg-dark">o produto <?=$produto?> tem a garantia de <?=$garantia?> <?=$ano?>.</p>
 
-
+<!-- alternativa para a resolução do problema com o "anos" -->
+ <p><span>ano<?php if($garantia > 1) echo "s" ?></span></p>
 
 
 
