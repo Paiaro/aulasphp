@@ -62,7 +62,7 @@
 
         //verificando produto e atribuindo diferentes garantias
 
-        if ($produto == "aspirador") {
+        if ($produto == "TV") {
 
             $garantia = 5;
             $ano = "anos";
@@ -99,9 +99,9 @@
             default:
                 $garantia2 = 1;
                 break;
-        }
-
+        };
         ?>
+<P>Garantia:<?=$garantia2?> ano.</P>
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
