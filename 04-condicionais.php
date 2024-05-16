@@ -9,7 +9,7 @@
     <style>
         p{
 
-            
+
         }
     </style>
 </head>
@@ -42,7 +42,7 @@ $qtdCritica = 2; //minimo necessario
 
 <?php
 // se a quantidade de estoque for abaixo da quantidade critica, o sistema deve avisar e pedir para repor.
-if ($qtdEstoque<2) {
+if ($qtdEstoque<$qtdCritica) {
     echo "<p>necessario repor estoque</p>";
     
 }else{
