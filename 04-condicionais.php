@@ -62,9 +62,10 @@
 
 //verificando produto e atribuindo diferentes garantias
 
-if($produto == "ultrabook"){
+if($produto == "aspirador"){
 
 $garantia = 5;
+$ano = "anos";
 }
 elseif ($produto == "Geladeira"){
 $garantia = 3; 
@@ -73,10 +74,11 @@ $garantia = 3;
     $garantia = 2;
 }else {
     $garantia = 1;
+    $ano ="ano";
 }
 
 ?>
-<p class="text-info bg-dark">o produto <?=$produto?> tem a garantia de <?=$garantia?> anos.</p>
+<p class="text-info bg-dark">o produto <?=$produto?> tem a garantia de <?=$garantia?> <?=$ano?>.</p>
 
 
 
