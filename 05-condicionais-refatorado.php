@@ -38,7 +38,7 @@
         $qtdEstoque = 0;
         $qtdCritica = 2;
         ?>
-        
+
         <h3>Produto: <?= $produto ?></h3>
         <h3>quantidade no estoque: <?= $qtdEstoque ?></h3>
 
