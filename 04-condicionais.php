@@ -56,8 +56,27 @@
         }
 
         ?>
+        <hr>
+<h2>Encadeada (usa <code>if,else,elseif</code>)</h2>
+<?php
 
+//verificando produto e atribuindo diferentes garantias
 
+if($produto == "ultrabook"){
+
+$garantia = 5;
+}
+elseif ($produto == "Geladeira"){
+$garantia = 3; 
+
+}elseif ($produto == "TV"){
+    $garantia = 2;
+}else {
+    $garantia = 1;
+}
+
+?>
+<p class="text-info bg-dark">o produto <?=$produto?> tem a garantia de <?=$garantia?> anos.</p>
 
 
 
