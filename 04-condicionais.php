@@ -10,6 +10,7 @@
     <style>
         p {
             font-size: larger;
+            color: #32012F;
 
         }
     </style>
