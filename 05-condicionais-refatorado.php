@@ -48,12 +48,18 @@
         <?php
 
         if ($qtdEstoque < $qtdCritica) {
-            echo "<p class=\"alert alert-warning\">necessario repor estoque</p>";
+            ?>
+            <p class="alert alert-warning">necessario repor estoque</p>
+            <?php
             if ($qtdEstoque == 0) {
-                echo "<p class = \"alert alert-danger\">Necessario comprar com urgencia</p>";
+                ?>
+                <p class = "alert alert-danger">Necessario comprar com urgencia</p>
+            <?php
             }
         } else {
-            echo "<p class= \"alert alert-success\">Estoque normal</p>";
+            ?>
+             <p class= "alert alert-success">Estoque normal</p>
+        <?php
         }
 
         ?>
