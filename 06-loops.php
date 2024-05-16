@@ -50,7 +50,7 @@
             <p class="alert alert-success"><?= $alunos[$i] ?></p>
         <?php } ?>
         <hr>
-
+        <!-- ---------foreach muito mais facil de ser utilizado em arrays------------ -->
         <h2>Loop Especifico no php: <code>foreach</code> bom para arrays</h2>
         <?php
         foreach ($alunos as $aluno) {
