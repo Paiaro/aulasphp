@@ -77,12 +77,12 @@
             $garantia = 1;
             $ano = "ano";
         }
-
         ?>
+
         <p class="text-info bg-dark">o produto <?= $produto ?> tem a garantia de <?= $garantia ?> <?= $ano ?>.</p>
 
 
-        <p><span>ano<?php if ($garantia > 1) echo "s" ?></span></p>
+        <p><span>ano <?php if ($garantia > 1) echo "s" ?></span></p>
 
         <hr>
         <h2>codicional com <code>switch/case</code></h2>
