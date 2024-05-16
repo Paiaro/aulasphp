@@ -25,8 +25,9 @@
         <?php
         $numero = 50;
         if ($numero < 100) {
-
-            echo "<p class =\"alert alert-success\">$numero é verdadeira/true!</p>";
+?>
+            <p class ="alert alert-success"><?=$numero?> é verdadeira/true!</p>
+        <?php
         }
         ?>
         <h2>Condicional composta (usa <code>if/else</code>)</h2>
