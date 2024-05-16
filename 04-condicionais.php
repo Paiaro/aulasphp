@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>04 - Condicionais</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        p{
+
+            
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -33,7 +40,17 @@ $qtdCritica = 2; //minimo necessario
 <h3>Produto: <?=$qtdEstoque?></h3>
 
 
+<?php
+// se a quantidade de estoque for abaixo da quantidade critica, o sistema deve avisar e pedir para repor.
+if ($qtdEstoque<2) {
+    echo "<p>necessario repor estoque</p>";
+    
+}else{
+    echo "<p>Estoque normal</p>";
+}
 
+
+?>
 
 
 
