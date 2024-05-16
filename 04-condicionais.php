@@ -8,7 +8,7 @@
 
     <style>
         p{
-
+font-size: larger;
 
         }
     </style>
@@ -48,7 +48,6 @@ if ($qtdEstoque<$qtdCritica) {
 }else{
     echo "<p>Estoque normal</p>";
 }
-
 
 ?>
 
