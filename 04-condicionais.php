@@ -57,34 +57,51 @@
 
         ?>
         <hr>
-<h2>Encadeada (usa <code>if,else,elseif</code>)</h2>
-<?php
+        <h2>Encadeada (usa <code>if,else,elseif</code>)</h2>
+        <?php
 
-//verificando produto e atribuindo diferentes garantias
+        //verificando produto e atribuindo diferentes garantias
 
-if($produto == "aspirador"){
+        if ($produto == "aspirador") {
 
-$garantia = 5;
-$ano = "anos";
-}
-elseif ($produto == "Geladeira"){
-$garantia = 3; 
+            $garantia = 5;
+            $ano = "anos";
+        } elseif ($produto == "Geladeira") {
+            $garantia = 3;
+        } elseif ($produto == "TV") {
+            $garantia = 2;
+        } else {
+            $garantia = 1;
+            $ano = "ano";
+        }
 
-}elseif ($produto == "TV"){
-    $garantia = 2;
-}else {
-    $garantia = 1;
-    $ano ="ano";
-}
+        ?>
+        <p class="text-info bg-dark">o produto <?= $produto ?> tem a garantia de <?= $garantia ?> <?= $ano ?>.</p>
 
-?>
-<p class="text-info bg-dark">o produto <?=$produto?> tem a garantia de <?=$garantia?> <?=$ano?>.</p>
+        <!-- alternativa para a resolução do problema com o "anos" -->
+        <p><span>ano<?php if ($garantia > 1) echo "s" ?></span></p>
 
-<!-- alternativa para a resolução do problema com o "anos" -->
- <p><span>ano<?php if($garantia > 1) echo "s" ?></span></p>
+        <hr>
+        <h2>codicional com <code>switch/case</code></h2>
+        <p><i>Estrutura alternativa para condicional encadeada</i></p>
 
+        <?php
+        switch ($produto) {
+            case 'Ultrabook':
+                $garantia2 = 5;
+                break;
+            case 'tv':
+                $garantia2 = 2;
+                break;
+            case 'Geladeira':
+                $garantia2 = 3;
+                break;
+            default:
+                $garantia2 = 1;
+                break;
+        }
 
-
+        ?>
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
