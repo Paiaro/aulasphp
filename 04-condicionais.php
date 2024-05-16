@@ -26,7 +26,7 @@
         $numero = 50;
         if ($numero < 100) {
 
-            echo "<p>$numero é verdadeira/true!</p>";
+            echo "<p class =\"alert alert-success\">$numero é verdadeira/true!</p>";
         }
         ?>
         <h2>Condicional composta (usa <code>if/else</code>)</h2>
@@ -40,15 +40,15 @@
 
         ?>
         <h3>Produto: <?= $produto ?></h3>
-        <h3>Produto: <?= $qtdEstoque ?></h3>
+        <h3>quantidade no estoque: <?= $qtdEstoque ?></h3>
 
 
         <?php
         // se a quantidade de estoque for abaixo da quantidade critica, o sistema deve avisar e pedir para repor.
         if ($qtdEstoque < $qtdCritica) {
-            echo "<p>necessario repor estoque</p>";
+            echo "<p class=\"alert alert-danger\">necessario repor estoque</p>";
         } else {
-            echo "<p>Estoque normal</p>";
+            echo "<p class= \"alert alert-success\">Estoque normal</p>";
         }
 
         ?>
