@@ -11,8 +11,17 @@
 
     <h1>Loops no PHP</h1>
 <hr>
+<h2>Tradicionais: <code>while e for</code></h2>
 
+<?php
+$i = 1;
+while($i <=3){ ?>
+<p class="alert -alert-info">Senac Penha</p>
 
+<?php
+$i++;
+}
+?>
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
