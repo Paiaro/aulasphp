@@ -45,7 +45,18 @@
     for($i = 0; $i< count($alunos);$i++){
     ?>
 <p class="alert alert-success"><?=$alunos[$i]?></p>
-<?php } ?>    
+<?php } ?> 
+<hr>
+<h2>Loop Especifico no php: <code>foreach</code> bom para arrays</h2> 
+<?php
+foreach($alunos as $aluno){
+    ?>
+
+<p class="alert alert-dark"></p>
+<?php
+}
+?>
+
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
