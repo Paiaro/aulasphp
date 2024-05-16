@@ -65,10 +65,8 @@
         ?>
         <hr>
         <h2>Encadeada (usa <code>if,else,elseif</code>)</h2>
+
         <?php
-
-
-
         if ($produto == "TV") {
 
             $garantia = 5;
