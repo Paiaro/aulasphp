@@ -7,7 +7,10 @@
     <title>Loops PHP</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        p,h1,h2,h3 {
+        p,
+        h1,
+        h2,
+        h3 {
             text-align: center;
         }
     </style>
@@ -38,26 +41,27 @@
         <?php
         }
         ?>
-<hr>
+        <hr>
         <h3><code>for </code>com <code>array</code></h3>
-    <?php
-    $alunos = ["chaves","chapolin","kiko"];
-    for($i = 0; $i< count($alunos);$i++){
-    ?>
-<p class="alert alert-success"><?=$alunos[$i]?></p>
-<?php } ?> 
-<hr>
-<h2>Loop Especifico no php: <code>foreach</code> bom para arrays</h2> 
-<?php
-foreach($alunos as $aluno){
-    ?>
+        <?php
+        $alunos = ["chaves", "chapolin", "kiko"];
+        for ($i = 0; $i < count($alunos); $i++) {
+        ?>
+            <p class="alert alert-success"><?= $alunos[$i] ?></p>
+        <?php } ?>
+        <hr>
 
-<p class="alert alert-dark"></p>
-<?php
-}
-?>
+        <h2>Loop Especifico no php: <code>foreach</code> bom para arrays</h2>
+        <?php
+        foreach ($alunos as $aluno) {
+        ?>
 
-</div>
+            <p class="alert alert-dark"><?= $aluno ?></p>
+        <?php
+        }
+        ?>
+
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
