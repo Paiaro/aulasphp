@@ -23,8 +23,8 @@
         <?php
         $meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
         ?>
-        <?php foreach ($meses as $index => $mes): ?>
-            <li class="<?= $index % 2 == 0 ? 'blue' : 'red'; ?>">
+        <?php foreach ($meses as $i => $mes): ?>
+            <li class="<?= $i % 2 == 0 ? 'blue' : 'red'; ?>">
                 <?= htmlspecialchars($mes, ENT_QUOTES, 'UTF-8') ?>
             </li>
         <?php endforeach; ?>
