@@ -13,6 +13,7 @@
         .red {
             color: red;
         }
+
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
@@ -50,7 +51,17 @@
         li:last-child {
             border-bottom: none;
         }
+/* correção do professor */
+        li:nth-child(even) {
 
+            color: #4CAF50;
+        }
+
+        li:nth-child(odd) {
+
+            color: #333;
+        }
+        /* --------------------------------- */
     </style>
 </head>
 
@@ -61,24 +72,24 @@
         <?php
         $meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
         ?>
-        <?php foreach ($meses as $i => $mes): ?>
+        <?php foreach ($meses as $i => $mes) : ?>
             <li class="<?= $i % 2 == 0 ? 'blue' : 'red'; ?>">
                 <?= htmlspecialchars($mes, ENT_QUOTES, 'UTF-8') ?>
             </li>
         <?php endforeach; ?>
     </ol>
-<!-- correção/versão do professor -->
+    <!-- correção/versão do professor -->
     <ol>
-<?php
-$mesesdoano = ['janeiro','fevereiro'];
-?>
-<?php
-foreach ($mesesdoano as $mes){
-    ?>
-    <li> <?=$mes?></li>
-    <?php
-}
-?>
+        <?php
+        $mesesdoano = ['janeiro', 'fevereiro'];
+        ?>
+        <?php
+        foreach ($mesesdoano as $mes) {
+        ?>
+            <li> <?= $mes ?></li>
+        <?php
+        }
+        ?>
 
     </ol>
 </body>
