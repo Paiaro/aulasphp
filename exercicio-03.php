@@ -67,6 +67,20 @@
             </li>
         <?php endforeach; ?>
     </ol>
+<!-- correção/versão do professor -->
+    <ol>
+<?php
+$mesesdoano = ['janeiro','fevereiro'];
+?>
+<?php
+foreach ($mesesdoano as $mes){
+    ?>
+    <li> <?=$mes?></li>
+    <?php
+}
+?>
+
+    </ol>
 </body>
 
 </html>
