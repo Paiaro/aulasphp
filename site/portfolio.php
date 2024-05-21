@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site</title>
+    <title>Portifólio - site</title>
 </head>
 
 <body>
@@ -17,8 +17,15 @@
     </header>
     <main>
         <article>
-            <h2>Bem vindo(a)</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex adipisci deleniti odit est dolorum? At, tempora! Exercitationem natus sunt vitae quasi, eum, voluptates reprehenderit ut laudantium necessitatibus est quibusdam voluptatibus.</p>
+            <h2>Nossos trabalhos</h2>
+         <details>
+<summary>Game</summary>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas nam blanditiis, incidunt provident esse soluta voluptatibus fugiat harum optio velit quod a tempora? Eveniet aliquid veritatis nobis? Iure, pariatur optio?</p>
+         </details>
+         <details>
+<summary>Web Site</summary>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas nam blanditiis, incidunt provident esse soluta voluptatibus fugiat harum optio velit quod a tempora? Eveniet aliquid veritatis nobis? Iure, pariatur optio?</p>
+         </details>
         </article>
     </main>
 
