@@ -16,5 +16,15 @@ include "recursos.php";
    echo "<p>HEEEEEEEYYYYYYYYY JUUUUUUDE</p>";
    echo "<p style=\"text-align:center\">Senac Penha </p>"
     ?>
+<hr>
+<h2>Tecnologias trabalhadas</h2>
+<?php
+foreach ($tecnologias as $tenologia){
+    ?>
+    
+    <p><?=$tenologia?></p>
+<?php
+}
+?>
 </body>
 </html>
