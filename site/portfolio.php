@@ -1,4 +1,5 @@
 <?php
+$pageTitle = "Portfólio";
 include "cabecalho.php";
 ?>
             <h2>Nossos trabalhos</h2>

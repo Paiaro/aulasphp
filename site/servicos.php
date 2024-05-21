@@ -1,4 +1,5 @@
 <?php
+$pageTitle = "serviços";
 include "cabecalho.php";
 ?>
  <h2>Serviços prestados</h2>

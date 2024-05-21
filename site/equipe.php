@@ -1,4 +1,5 @@
 <?php
+$pageTitle = "Equipe";
 include "cabecalho.php";
 
 ?>
