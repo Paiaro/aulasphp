@@ -13,6 +13,7 @@
         <nav><a href="index.php">Home</a>
             <a href="equipe.php">Equipe</a>
             <a href="portfolio.php">Portfólio</a>
+            <a href="servicos.php">Serviços</a>
         </nav>
     </header>
     <main>
