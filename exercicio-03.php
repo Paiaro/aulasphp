@@ -54,12 +54,12 @@
 /* correção do professor */
         li:nth-child(even) {
 
-            color: #4CAF50;
+            color: #68D2E8;
         }
 
         li:nth-child(odd) {
 
-            color: #333;
+            color: #9F70FD;
         }
         /* --------------------------------- */
     </style>
@@ -86,7 +86,7 @@
         <?php
         foreach ($mesesdoano as $mes) {
         ?>
-            <li> <?= $mes ?></li>
+            <li> <?= $mes?></li>
         <?php
         }
         ?>
