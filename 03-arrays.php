@@ -1,3 +1,6 @@
+<?php
+include "recursos.php";
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -8,6 +11,11 @@
 </head>
 
 <body>
+    <div class="alert alert-info">
+        <p>Empresa: <?=EMPRESA?></p>
+        <p>Ano fiscal: <?=$anoFiscal?></p>
+    </div>
+    <hr>
     <h1>Arrays</h1>
     <hr>
     <h2>Arrays numéricos/indexados</h2>
@@ -19,9 +27,6 @@
 
     define("UNIDADES_SESC", ["belenzinho", "bertioga"]);
     const UNIDADES_SENAC = ["Penha", "São Miguel", "Itaquera"];
-
-
-
 
     ?>
     <h3>Acesso e saída de dados</h3>
