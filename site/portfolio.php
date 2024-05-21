@@ -10,7 +10,6 @@ include "cabecalho.php";
 <summary>Web Site</summary>
 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas nam blanditiis, incidunt provident esse soluta voluptatibus fugiat harum optio velit quod a tempora? Eveniet aliquid veritatis nobis? Iure, pariatur optio?</p>
          </details>
-        </article>
     <?php
     include "rodape.php";
     ?>
