@@ -10,9 +10,10 @@
     <hr>
 
     <?php
-    // capturando dados prevenientes do formulário usando o array superglobal $_POST[]
+    // capturando dados prevenientes do formulário usando o array superglobal $_POST[] (se o form usar o metodo get, então usariamos $_GET[]).
+     
 
-    
+
     ?>
 </body>
 </html>
