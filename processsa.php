@@ -18,14 +18,26 @@
     $nascimento = $_POST["nascimento"];
     $mensagem = $_POST["mensagem"];
     ?>
-<h2>Dados recebidos</h2>
-<hr>
-<ul>
-    <li>Nome: <?=$nome?></li>
-    <li>E-mail: <?=$email?></li>
-    <li>Data de nascimento: <?=$nascimento?></li>
-    <li>Mensagem: <?=$mensagem?></li>
-</ul>
+    <?php
+    if (empty($nome) || empty($email)) {
+    ?>
+        <p>você deve preencher este <b>nome</b> e <b>e-mail</b>.</p>
+
+    <?php
+    } else {
+      
+
+    ?>
+        <h2>Dados recebidos</h2>
+        <hr>
+        <ul>
+            <li>Nome: <?= $nome ?></li>
+            <li>E-mail: <?= $email ?></li>
+            <li>Data de nascimento: <?= $nascimento ?></li>
+            <li>Mensagem: <?= $mensagem ?></li>
+        </ul>
+    <?php
+    } ?>
 </body>
 
 </html>
