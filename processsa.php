@@ -21,7 +21,7 @@
     <?php
     if (empty($nome) || empty($email)) {
     ?>
-        <p>você deve preencher este <b>nome</b> e <b>e-mail</b>.</p>
+        <p>você deve preencher o <b>nome</b> e <b>e-mail</b>.</p>
 
     <?php
     } else {
