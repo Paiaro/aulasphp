@@ -30,7 +30,7 @@
                 $fabricantes = ["ASUS", "SONY", "SAMSUNG", "HP"];
                 foreach ($fabricantes as $fabricante) {
                 ?>
-                    <option value="<?= $fabricante ?>"><?= $fabricante ?></option>
+                    <option><?=$fabricante?></option>
                 <?php
                 }
                 ?>
