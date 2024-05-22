@@ -33,8 +33,17 @@
         <ul>
             <li>Nome: <?= $nome ?></li>
             <li>E-mail: <?= $email ?></li>
+
+
+            <?php ?>
             <li>Data de nascimento: <?= $nascimento ?></li>
+ 
+            <?php ?>
+
+
+            <?php ?>
             <li>Mensagem: <?= $mensagem ?></li>
+            <?php ?>
         </ul>
     <?php
     } ?>
