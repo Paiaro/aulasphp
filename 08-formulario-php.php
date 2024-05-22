@@ -12,7 +12,9 @@
     <hr>
     <?php
     // detectando o envio/acionamento do formulario
+if (isset($_POST['enviar'])) {
 
+}
     ?>
 
     <!-- Mantenha o action vazio -->
