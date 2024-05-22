@@ -13,10 +13,13 @@
     <?php
     // detectando o envio/acionamento do formulario
 if (isset($_POST['enviar'])) {
+$nome = $_POST["nome"];
 
-}
     ?>
-
+    <h2>bem vindo(a)!</h2>
+    <hr>
+<?php
+}?>
     <!-- Mantenha o action vazio -->
     <form action="" method="post"> <label for="nome">Nome:</label> <input type="text" name="nome" id="nome"> <button type="submit" name="enviar">Enviar</button> </form>
 </body>
