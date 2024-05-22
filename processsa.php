@@ -8,5 +8,11 @@
 <body>
     <h1>Processamento dos dados vindos do formulário</h1>
     <hr>
+
+    <?php
+    // capturando dados prevenientes do formulário usando o array superglobal $_POST[]
+
+    
+    ?>
 </body>
 </html>
