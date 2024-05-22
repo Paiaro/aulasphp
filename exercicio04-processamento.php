@@ -20,12 +20,10 @@ $descricao = $_POST ['descricao'];
 
 ?>
     <ul>
-
 <li><?=$produto?></li>
 <li><?=$fabricante?></li>
-<li><?=$preco?></li>
+<li>R$ <?=number_format($preco, 2,",",".")?></li>
 <li><?=$descricao?></li>
-
     </ul>
 </body>
 </html>
