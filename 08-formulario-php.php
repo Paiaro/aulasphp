@@ -10,6 +10,12 @@
 <body>
     <h1>Formulário e processamento juntos</h1>
     <hr>
+    <?php
+    // detectando o envio/acionamento do formulario
+
+    ?>
+
+    <!-- Mantenha o action vazio -->
     <form action="" method="post"> <label for="nome">Nome:</label> <input type="text" name="nome" id="nome"> <button type="submit" name="enviar">Enviar</button> </form>
 </body>
 
