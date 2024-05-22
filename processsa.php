@@ -34,16 +34,19 @@
             <li>Nome: <?= $nome ?></li>
             <li>E-mail: <?= $email ?></li>
 
-
-            <?php ?>
+<!-- se não estiver vazio -->
+            <?php if(!empty($nascimento)){
+            
+            ?>
             <li>Data de nascimento: <?= $nascimento ?></li>
- 
-            <?php ?>
+            <?php }?>
 
 
-            <?php ?>
+            <?php if(!empty($mensagem)){
+
+            ?>
             <li>Mensagem: <?= $mensagem ?></li>
-            <?php ?>
+            <?php }?>
         </ul>
     <?php
     } ?>
